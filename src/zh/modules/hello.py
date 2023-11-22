@@ -1,6 +1,6 @@
 '''
 本节文章
-https://learnscript.net/zh/python-reference/modules/ 什么是 PYTHON 模块
+https://learnscript.net/zh/python-reference/modules/ 什么是 Python 模块
 '''
 
 # 模块 hello
