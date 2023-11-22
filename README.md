@@ -11,7 +11,7 @@
 
 ## 说明
 
-这里的代码被用于一个 `Python` 参考说明，你可以访问 [PYTHON 参考说明](https://learnscript.net/zh/python/)，查看 `Python` 相关的文章。
+这里的代码被用于一个 `Python` 参考说明，你可以访问 [PYTHON 参考说明](https://learnscript.net/zh/python-reference/)，查看 `Python` 相关的文章。
 
 每个 `.py` 代码文件都含有其对应文章的信息。
 
