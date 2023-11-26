@@ -3,5 +3,6 @@ __pycache__/
 .md/
 读我.txt
 temp.py
+test.py
 *.pyc
 *.zip
