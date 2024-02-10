@@ -7,7 +7,7 @@ https://learnscript.net/zh-hant/python-reference/import-system/module-search-pat
 import os
 import sys
 
-# 取得壓縮檔案 plants.zip 的絕對路徑，並添加至模組搜尋路徑
+# 取得壓縮檔案 plants.zip 的絕對路徑，並新增至模組搜尋路徑
 zip_path = os.path.abspath('plants.zip')
 sys.path.append(zip_path)
 

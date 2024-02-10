@@ -7,7 +7,7 @@ https://learnscript.net/zh-hant/python-reference/import-system/module-search-pat
 import os
 import sys
 
-# 取得資料夾 plants 的絕對路徑，並添加至模組搜尋路徑
+# 取得資料夾 plants 的絕對路徑，並新增至模組搜尋路徑
 plants_path = os.path.abspath('plants')
 sys.path.append(plants_path)
 

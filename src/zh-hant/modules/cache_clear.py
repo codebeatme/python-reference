@@ -1,6 +1,6 @@
 '''
 本節文章
-https://learnscript.net/zh-hant/python-reference/modules/module-cache/ 什麽是 Python 模組緩存
+https://learnscript.net/zh-hant/python-reference/modules/module-cache/ 什麽是 Python 模組快取
 '''
 
 import sys
@@ -11,7 +11,7 @@ import car
 module1 = sys.modules['car']
 car1 = car.Car()
 
-# 清除模組 car 的緩存
+# 清除模組 car 的快取
 del sys.modules['car']
 
 # 再次匯入模組 car
