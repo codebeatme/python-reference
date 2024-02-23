@@ -5,21 +5,17 @@ https://learnscript.net/zh-hant/python-reference/modules/module-cache/ 什麽是
 
 import sys
 
-# 匯入模組 car
+# 首次匯入模組 car，並建立 Car 物件
 import car
-
 module1 = sys.modules['car']
 car1 = car.Car()
 
 # 清除模組 car 的快取
 del sys.modules['car']
 
-# 再次匯入模組 car
+# 再次匯入模組 car，並建立 Car 物件
 import car
-
-# 顯然，module2 將是一個新的 ModuleType 物件
 module2 = sys.modules['car']
-# car2 和 car1 將是不同的型別
 car2 = car.Car()
 
 print(f'module1 == module2 能成立？{module1 == module2}')

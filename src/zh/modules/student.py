@@ -8,3 +8,7 @@ import teacher
 
 # homework 包也可以被正常导入
 import homework
+
+import sys
+import types
+print(isinstance(sys.modules["sys"], types.ModuleType))

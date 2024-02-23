@@ -5,21 +5,17 @@ https://learnscript.net/zh/python-reference/modules/module-cache/ 什么是 Pyth
 
 import sys
 
-# 导入模块 car
+# 首次导入模块 car，并创建 Car 对象
 import car
-
 module1 = sys.modules['car']
 car1 = car.Car()
 
 # 清除模块 car 的缓存
 del sys.modules['car']
 
-# 再次导入模块 car
+# 再次导入模块 car，并创建 Car 对象
 import car
-
-# 显然，module2 将是一个新的 ModuleType 对象
 module2 = sys.modules['car']
-# car2 和 car1 将是不同的类型
 car2 = car.Car()
 
 print(f'module1 == module2 能成立？{module1 == module2}')
